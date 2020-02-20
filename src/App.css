@@ -1,0 +1,35 @@
+html {
+  font-size: 16px;
+  font-family: 'SF Pro Text', sans-serif;
+}
+.flash-card {
+  padding: 0 50px;
+  margin-top: 50px;
+}
+button {
+  position: relative;
+  border: none;
+  padding: 1em;
+  background: hsl(220, 70%, 50%);
+  box-shadow: 0 2px 0 hsl(220, 70%, 10%);
+  font-size: 16px;
+  font-weight: 500;
+  color: white;
+  border-radius: 2px;
+  cursor: pointer;
+  transition: background 0.15s, transform 0.15s, box-shadow 0.15s;
+  margin-right: 20px;
+}
+
+button:hover {
+  background: hsl(220, 70%, 60%);
+}
+
+button:active {
+  background: hsl(220, 70%, 30%);
+}
+
+button[disabled] {
+  cursor: default;
+  background: grey;
+}
